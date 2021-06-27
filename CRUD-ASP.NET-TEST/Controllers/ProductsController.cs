@@ -28,26 +28,21 @@ namespace ProductsMVC.Controllers
             ViewData["IList"] = IList;
             return View();
         }
-        public ActionResult white()
+        public ActionResult Black()
         {
             ViewData["IList"] = IList;
             return View();
         }
-        // GET - /Proudcts/Details/33?color="red"
-        public ActionResult Details(int? Id)
+        // GET: /products/id
+        public IActionResult Details(int? id)
         {
-            Product p = IList.Find(b => b.id == Id);
-
-            if (p == null)
+            var Product = _db.Products.ToList().Find(product => product.Id == id);
+            if(id == null || Product == null)
             {
-                return Content("The product is not found");
+                return View("_NotFound");
             }
-            else
-            {
-
-                ViewData["p"] = p;
-                return View();
-            }
+            ViewData["Product"] = Product;
+            return View(Product);
 
         }
         // GET - /Products/show?color=red
