@@ -8,12 +8,12 @@ namespace CRUD_ASP.NET_TEST.Models
 {
     public class Product
     {
-        public int id { get; set; }
-        public string name { get; set; }
-        public decimal price { get; set; }
-        public string model { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public decimal Price { get; set; }
+        public string Model { get; set; }
 
-        public string image { get; set; }
+        public string Image { get; set; }
 
         internal static Product Find(Func<object, bool> p)
         {
