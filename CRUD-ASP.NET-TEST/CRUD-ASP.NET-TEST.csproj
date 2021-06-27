@@ -5,4 +5,8 @@
     <RootNamespace>CRUD_ASP.NET_TEST</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\Products\" />
+  </ItemGroup>
+
 </Project>
