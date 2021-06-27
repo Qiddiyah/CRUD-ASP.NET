@@ -8,6 +8,14 @@ using System.Threading.Tasks;
 
 namespace ProductsMVC.Controllers
 {
+     public class ProductsController : Controller
+    {
+        private readonly AppDbContext _db;
+
+        public ProductsController(AppDbContext db)
+        {
+            _db = db;
+        }
     public class ProductsController : Controller
     {
         List<Product> IList = new List<Product>()
@@ -22,12 +30,13 @@ namespace ProductsMVC.Controllers
 
         string[] colors = { "red", "black" };
 
-        public ActionResult Index(string color = "white")
+          public IActionResult Index()
         {
-            ViewData["color"] = color;
-            ViewData["IList"] = IList;
+            var Products = _db.Products.ToList();
+            ViewData["Products"] = Products;
             return View();
         }
+
         public ActionResult Black()
         {
             ViewData["IList"] = IList;
