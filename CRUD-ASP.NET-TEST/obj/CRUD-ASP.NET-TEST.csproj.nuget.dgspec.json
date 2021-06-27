@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\96655\\OneDrive\\Desktop\\Github exer\\CRUD-ASP.NET\\CRUD-ASP.NET-TEST\\CRUD-ASP.NET-TEST.csproj": {}
+    "C:\\Users\\Alban\\source\\repos\\CRUD-ASP.NET-TEST\\CRUD-ASP.NET-TEST\\CRUD-ASP.NET-TEST.csproj": {}
   },
   "projects": {
-    "C:\\Users\\96655\\OneDrive\\Desktop\\Github exer\\CRUD-ASP.NET\\CRUD-ASP.NET-TEST\\CRUD-ASP.NET-TEST.csproj": {
+    "C:\\Users\\Alban\\source\\repos\\CRUD-ASP.NET-TEST\\CRUD-ASP.NET-TEST\\CRUD-ASP.NET-TEST.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\96655\\OneDrive\\Desktop\\Github exer\\CRUD-ASP.NET\\CRUD-ASP.NET-TEST\\CRUD-ASP.NET-TEST.csproj",
+        "projectUniqueName": "C:\\Users\\Alban\\source\\repos\\CRUD-ASP.NET-TEST\\CRUD-ASP.NET-TEST\\CRUD-ASP.NET-TEST.csproj",
         "projectName": "CRUD-ASP.NET-TEST",
-        "projectPath": "C:\\Users\\96655\\OneDrive\\Desktop\\Github exer\\CRUD-ASP.NET\\CRUD-ASP.NET-TEST\\CRUD-ASP.NET-TEST.csproj",
-        "packagesPath": "C:\\Users\\96655\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\96655\\OneDrive\\Desktop\\Github exer\\CRUD-ASP.NET\\CRUD-ASP.NET-TEST\\obj\\",
+        "projectPath": "C:\\Users\\Alban\\source\\repos\\CRUD-ASP.NET-TEST\\CRUD-ASP.NET-TEST\\CRUD-ASP.NET-TEST.csproj",
+        "packagesPath": "C:\\Users\\Alban\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alban\\source\\repos\\CRUD-ASP.NET-TEST\\CRUD-ASP.NET-TEST\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\96655\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alban\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
