@@ -8,11 +8,25 @@
     "net5.0": []
   },
   "packageFolders": {
+<<<<<<< HEAD
+    "C:\\Users\\Alban\\.nuget\\packages\\": {}
+=======
     "C:\\Users\\rhm30\\.nuget\\packages\\": {}
+>>>>>>> a2ec999070bb8dc9acf182c170f2bf719f8bbc41
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Users\\Alban\\source\\repos\\CRUD-ASP.NET-TEST\\CRUD-ASP.NET-TEST\\CRUD-ASP.NET-TEST.csproj",
+      "projectName": "CRUD-ASP.NET-TEST",
+      "projectPath": "C:\\Users\\Alban\\source\\repos\\CRUD-ASP.NET-TEST\\CRUD-ASP.NET-TEST\\CRUD-ASP.NET-TEST.csproj",
+      "packagesPath": "C:\\Users\\Alban\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alban\\source\\repos\\CRUD-ASP.NET-TEST\\CRUD-ASP.NET-TEST\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Alban\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
       "projectUniqueName": "C:\\Users\\rhm30\\OneDrive\\Desktop\\Bootcamp\\alband\\crud\\CRUD-ASP.NET\\CRUD-ASP.NET-TEST\\CRUD-ASP.NET-TEST.csproj",
       "projectName": "CRUD-ASP.NET-TEST",
       "projectPath": "C:\\Users\\rhm30\\OneDrive\\Desktop\\Bootcamp\\alband\\crud\\CRUD-ASP.NET\\CRUD-ASP.NET-TEST\\CRUD-ASP.NET-TEST.csproj",
@@ -21,6 +35,7 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rhm30\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> a2ec999070bb8dc9acf182c170f2bf719f8bbc41
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -64,10 +79,14 @@
           }
         },
 <<<<<<< HEAD
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+=======
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
 =======
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
 >>>>>>> c5e8d3a8b05d3d4eb0e0d88146cea9378e2e5e5f
+>>>>>>> a2ec999070bb8dc9acf182c170f2bf719f8bbc41
       }
     }
   }

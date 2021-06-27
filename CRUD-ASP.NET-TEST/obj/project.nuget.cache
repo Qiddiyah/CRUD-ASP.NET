@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "i0MjzS8j5uXcjzd0fwyWiK4+hLE7lHVgf/UYWYxNwmTe3+t3YPQOpIO074OOYwbF6uIEWmD5yg/QkYrjta5Dog==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Alban\\source\\repos\\CRUD-ASP.NET-TEST\\CRUD-ASP.NET-TEST\\CRUD-ASP.NET-TEST.csproj",
+=======
   "dgSpecHash": "k9hgSQ277CQik48iF/24RWNYzOQU70YXsUZ6Ur8+pZEW0ClBZaStVFRymPLo3yqh0DS0u+T4GJcpCeu2NpmMmA==",
   "success": true,
   "projectFilePath": "C:\\Users\\rhm30\\OneDrive\\Desktop\\Bootcamp\\alband\\crud\\CRUD-ASP.NET\\CRUD-ASP.NET-TEST\\CRUD-ASP.NET-TEST.csproj",
+>>>>>>> a2ec999070bb8dc9acf182c170f2bf719f8bbc41
   "expectedPackageFiles": [],
   "logs": []
 }
