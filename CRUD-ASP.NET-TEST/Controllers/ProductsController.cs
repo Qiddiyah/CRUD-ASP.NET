@@ -12,9 +12,9 @@ namespace ProductsMVC.Controllers
     {
         private readonly AppDbContext _db;
 
-        public ProductsController(AppDbContext db)
+        public ProductsController(AppDbContext mydb)
         {
-            _db = db;
+            _db = mydb;
         }
     public class ProductsController : Controller
     {
