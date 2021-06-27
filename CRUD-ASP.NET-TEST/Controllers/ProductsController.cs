@@ -28,7 +28,7 @@ namespace ProductsMVC.Controllers
             ViewData["IList"] = IList;
             return View();
         }
-        public ActionResult white()
+        public ActionResult Black()
         {
             ViewData["IList"] = IList;
             return View();
