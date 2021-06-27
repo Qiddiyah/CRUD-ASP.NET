@@ -45,13 +45,14 @@ namespace ProductsMVC.Controllers
             return View(Product);
 
         }
-        // GET - /Products/show?color=red
-        public ActionResult Show(string color)
+     
+
+        public ActionResult Display (string color)
         {
             ViewData["Color"] = color;
             return View();
         }
-
+           
 
     }
 }
